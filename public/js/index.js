@@ -13,7 +13,7 @@ const handleClick=(event)=>{
      var add=document.getElementById("address").value;
      info.textContent="Loading.."
      error.textContent=""
-     fetch('http://localhost:3000/weather?address='+add).then((response)=>{   
+     fetch('/weather?address='+add).then((response)=>{   
 
 
     response.json().then((data)=>{   
