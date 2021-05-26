@@ -1,7 +1,5 @@
 const fs=require('fs')
-const request = require('postman-request');
-const fetch=require('node-fetch')
-
+const request=require('request')
 const api={
     key:'16cc4c5e60cc96c83babdd10ec6eea4e',
     geocodeurl:'https://api.openweathermap.org/data/2.5/forecast/daily?'
